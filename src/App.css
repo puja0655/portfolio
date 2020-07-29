@@ -10,8 +10,7 @@
 @media only screen and (max-width: 600px) {
   .typing {
     font-size: 40px;
-    text-align: center;
-    
+    margin: 40px;
   }
 }
 .media-body{
