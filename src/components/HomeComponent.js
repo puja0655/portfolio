@@ -17,7 +17,8 @@ function Home(props){
             </div>
             </div>
             <div className="row">
-                <div className="col-sm-6 offset-4 ">
+                <div className="col-12 col-sm-4"></div>
+                <div className="col-sm-6  ">
             <ReactTypingEffect text= "Hi! I'm Puja" className="typing"/>
             </div>
             </div>
