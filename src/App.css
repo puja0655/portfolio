@@ -13,8 +13,17 @@
     align-self: center;
   }
 }
-
-
+.media-body{
+  color: antiquewhite;
+  margin-top: 30px;
+}
+@media only screen and (max-width: 600px) {
+  .media-body {
+    font-size:20px;
+    text-align:center;
+    color: black;
+  }
+}
   
   
 
@@ -79,35 +88,56 @@
 }
 .card{
   box-shadow: 5px 5px rgb(58, 55, 55);
-  background-color: rgb(207, 171, 123);
   border-radius: 20px;
+  margin-top: 20px;
 }
 #text2{
   font-size: 80px;
+  text-align: center;
   color: rgb(207, 171, 123);
   font-weight: 500;
   text-shadow:2px 2px black;
 }
 @media only screen and (max-width: 600px) {
   #text2 {
-    font-size:30px;
+    font-size:40px;
     text-align: center;
+    margin-top: 40px;
   }
 }
 #navbar{
-  background-color: rgb(192, 114, 13);
+  background-color: rgb(29, 23, 23);
+  
+}
+#navlink{
+  color:skyblue;
 }
 .footer{
-  background-color: rgb(235, 182, 114);
+  background-color: rgb(70, 67, 67);
 }
 .container-fluid{
-  background: url(./home3.jpeg) no-repeat center center fixed; 
+  background: url(./hom.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   min-height: 830px;
 }
-#card-img{
+/* #card-img{
   align-self: center;
+} */
+.button{
+  background-color: #2b2e33;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 200px;
+  padding-right: 200px;
+  font-size: 20px;
+  border-radius: 20px;
+}
+@media only screen and (max-width: 600px) {
+  .button {
+    font-size:30px;
+    padding: 20px;
+  }
 }

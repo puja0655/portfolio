@@ -20,23 +20,16 @@ function Header(props){
                           fontWeight: 800,
                            color: "white" 
                                   }}
-                        to="/home">Home
+                        to="/home" id="navlink">Home
               </NavLink>
                 </NavItem>
-                <NavItem className="m-2">
-                <NavLink activeStyle={{
-                          fontWeight: 800,
-                           color: "white"
-                                  }}
-                        to="/skill">Skills
-              </NavLink>
-              </NavItem>
+               
               <NavItem className="m-2">
                 <NavLink activeStyle={{
                           fontWeight: 800,
                            color: "white"
                                   }}
-                        to="/about">About
+                        to="/about" id="navlink">About
               </NavLink>
               </NavItem>
                 <NavItem className="m-2">

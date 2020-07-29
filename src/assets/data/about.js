@@ -1,1 +1,1 @@
-export const ABOUT="I am currently a student pursuing bachelor of technology in computer science and engineering at IIT(ISM)dhanbad, interested in field of web development."
+export const ABOUT="I am  currently a student in IIT dhanbad pursuing bachelor of technology in computer science and engineering , interested in field of web development.I have worked with django,react and currently learning nodejs.I consider myself beginner in this field."

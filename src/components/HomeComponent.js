@@ -22,7 +22,7 @@ function Home(props){
             </div>
             </div>
             <div className="row">
-                <div className="col-12 col-sm-6 offset-4" id="text2">Welcome to my portfolio</div>
+                <div className="col-12" id="text2">Welcome to my portfolio</div>
             </div>
             </div>
             
