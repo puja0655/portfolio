@@ -9,7 +9,7 @@
 }
 @media only screen and (max-width: 600px) {
   .typing {
-    font-size: 50px;
+    font-size: 30px;
     align-self: center;
   }
 }
