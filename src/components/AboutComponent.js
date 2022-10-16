@@ -27,7 +27,7 @@ function About(props){
                 <div className="col-12 col-sm-6">
                     <div className="media">
                        <div className="media-body">
-                          <h1 className="mt-5 mb-4">About Me</h1>
+                          <h2 className="mt-5 mb-4">About Me</h2>
                           <h4> {ABOUT} </h4>
                        </div>
                     </div>
